@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Julius Williams III | Official Brand Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Julius Williams III | Official Brand Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <h1>Julius Williams III</h1>
+    <section class="hero">
 
-  <h2>Athlete • Coach • Author • Business Professional</h2>
+        <div class="hero-content">
 
-  <p>
-    NCAA DII All-American triple jumper building a brand centered around
-    performance, purpose, leadership, and impact beyond the track.
-  </p>
+            <h1>JULIUS WILLIAMS III</h1>
 
-  <p>
-    Welcome to my official professional portfolio.
-  </p>
+            <h2>
+                NCAA DII All-American Triple Jumper • Coach • Author • Business Professional
+            </h2>
+
+            <p class="tagline">
+                Performance with Purpose. Impact Beyond the Track.
+            </p>
+
+            <p class="intro">
+                Welcome to my official brand portfolio. Explore my story,
+                athletic achievements, professional journey, content,
+                partnerships, and sponsorship opportunities.
+            </p>
+
+            <div class="buttons">
+                <a href="#about">Explore My Story</a>
+                <a href="#partnerships">Partner With Me</a>
+            </div>
+
+        </div>
+
+    </section>
 
 </body>
+
 </html>
