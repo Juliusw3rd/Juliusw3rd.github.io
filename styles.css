@@ -300,7 +300,92 @@ body {
     line-height: 1.8;
 }
 
+/* ------------------------------
+   PARTNERSHIPS
+------------------------------ */
 
+.partnerships {
+    background-color: #0b0b0b;
+    padding: 120px 30px;
+}
+
+.partnerships-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.partnerships h2 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.partnerships-intro {
+    max-width: 800px;
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+.partnership-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.partnership-card {
+    border: 1px solid #333;
+    padding: 35px;
+    min-height: 210px;
+    transition: 0.3s;
+}
+
+.partnership-card:hover {
+    border-color: white;
+    transform: translateY(-5px);
+}
+
+.partnership-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.partnership-card p {
+    color: #bbb;
+    line-height: 1.8;
+}
+
+.partnership-cta {
+    border-top: 1px solid #333;
+    padding-top: 50px;
+}
+
+.partnership-cta h3 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.partnership-cta p {
+    color: #bbb;
+    max-width: 650px;
+    margin-bottom: 25px;
+}
+
+.partnership-cta a {
+    display: inline-block;
+    padding: 13px 28px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.partnership-cta a:hover {
+    background-color: white;
+    color: black;
+}
 /* Beyond section mobile */
 
 @media (max-width: 700px) {
@@ -352,5 +437,14 @@ body {
 @media (max-width: 600px) {
     .achievement-grid {
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 700px) {
+    .partnership-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .partnerships h2 {
+        font-size: 2.3rem;
     }
 }
