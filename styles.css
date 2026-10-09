@@ -459,6 +459,21 @@ body {
     background-color: white;
     color: black;
 }
+.partnership-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.partnership-buttons .secondary-button {
+    background-color: white;
+    color: black;
+}
+
+.partnership-buttons .secondary-button:hover {
+    background-color: transparent;
+    color: white;
+}
 /* Beyond section mobile */
 
 @media (max-width: 700px) {
@@ -733,5 +748,11 @@ body {
 
     .milestone-content h3 {
         font-size: 2rem;
+    }
+}
+@media (max-width: 600px) {
+    .partnership-buttons {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
